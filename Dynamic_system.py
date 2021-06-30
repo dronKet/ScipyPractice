@@ -4,9 +4,9 @@ from matplotlib import pylab as p
 from scipy import integrate
 
 
-#В task_3_1 реализовано модель SIR
-#В task_3_2 два класса. Класс без modified реализовывает модель Вольтерра без e*u^2,
-# а класс с modified реаизовывает с ним.
+#В task_3_1 реализована модель SIR
+#В task_3_2 два класса. Класс LotkiVolterra реализовывает модель Вольтерра без e*u^2,
+# а класс LotkiVolterraModified реализовывает с ним.
 
 def task_3_1():
     def analysis(y, t, N, beta, gamma):
